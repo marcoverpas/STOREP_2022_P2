@@ -16,7 +16,7 @@ if(!is.null(dev.list())) dev.off()
 #Clear Console
 cat("\014")
 
-#Import (self-generated) steady-state values
+#Import steady-state values
 data00 <- read.csv("https://www.dropbox.com/s/k4desu52d3couxa/steady_state_values.csv?dl=1") 
 
 #Select type of investment function 
